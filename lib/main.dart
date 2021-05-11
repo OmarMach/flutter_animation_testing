@@ -1,4 +1,4 @@
-import 'package:animation_testing/tween_animaton_screen.dart';
+import 'package:animation_testing/multiple_animations_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TweenAnimationScreen(),
+      home: MultipleAnimationScree(),
     );
   }
 }
